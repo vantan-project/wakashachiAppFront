@@ -11,6 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
+        white: "var(--white-color)",
+        text: "var(--text-color)",
+        accent: "var(--accent-color)",
+        loginAccent: "var(--login-accent-color)",
+        thinText: "var(--thin-text-color)",
+        form: "var(--form-color)",
+        formError: "var(--form-error-color)",
+        formBorder: "var(--form-border)",
       },
     },
   },

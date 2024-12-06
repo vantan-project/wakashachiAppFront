@@ -3,19 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  --white-color: #FFFCFB;
+  --accent-color: #DB6010;
+  --text-color: #202020;
+  --login-accent-color: #444444;
+  --thin-text-color: #9E9E9E;
+  --form-color: #9747FF;
+  --form-error-color: #E87676;
+  --form-border-color: #D1D0D0;
 }
